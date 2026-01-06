@@ -6,21 +6,21 @@
 
 .heading{
   color: #1A1A1A;
-  font-size: 190px;
+  font-size: 40px;
   text-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
 }
 
 .word{
   font-family: IBM Plex Mono;
   color: white;
-  font-size: 190px;
+  font-size: 40px;
   text-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
 }
 
 .info{
   color: white;
   padding-top: 30px;
-  font-size: 80px;
+  font-size: 20px;
   text-shadow: 0 8px 15px rgba(0, 0, 0, 0.9);
 }
 
