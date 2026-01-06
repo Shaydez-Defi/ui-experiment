@@ -1,0 +1,15 @@
+body{
+  background-image: url(circle-scatter-haikei.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  padding: 50px;
+  font-family: Inter;
+}
+
+@media(min-width: 1024px) {
+  body{
+    padding: 90px;
+  }
+}

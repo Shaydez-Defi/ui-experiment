@@ -1,0 +1,86 @@
+header{
+  font-family: Inter;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(233, 230, 230);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  padding-left: 15px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+nav .nav-links{
+  display: none;
+}
+
+nav .sign-up-button{
+  display: inline-block;
+}
+
+.logo{
+  font-family: Fascinate;
+  font-size: 20px;
+}
+
+.first-word{
+  font-size: 40px;
+}
+
+a{
+  padding: 7px;
+  border-radius: 6px;
+}
+
+a:hover{
+  cursor: pointer;
+  background-color: lightgrey;
+}
+
+button{
+  color: rgb(230, 224, 224);
+  background-color: rgb(7, 7, 54);
+  padding: 6px 6px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover{
+  opacity: 0.9;
+}
+
+button:active{
+  opacity: 0.7;
+}
+
+@media(min-width: 768px){
+    nav .nav-links{
+    display: flex;
+    gap: 17px;
+  }
+
+  nav .sign-up-button{
+    display: inline-block;
+  }
+}
+
+@media(min-width: 1024px) {
+  nav .nav-links{
+    display: flex;
+    gap: 17px;
+  }  
+  
+  nav .sign-up-button{
+    display: inline-block;
+  }
+}
