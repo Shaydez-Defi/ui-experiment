@@ -3,17 +3,31 @@ footer{
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: rgb(235, 235, 235);  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  background-color: #060d14;
+  color: #f5f7fa;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.4);
   z-index: 100;
-  font-size: 12px;
-  padding-top: 6px; 
-  padding-left: 0px; 
+  font-size: 0.75rem;
+  padding: 0.6rem 1rem; 
   text-align: right;
   font-family: Fascinate;
+  z-index: 100;
+}
+
+footer span{
+  color: #4f7cff;
+}
+
+@media(min-width: 787px) {
+  footer{
+    font-size: 0.7rem;
+    padding: 0.5rem 1rem;
+  }
 }
 
 @media(min-width: 1024px) {
   footer{
-    font-size: 15px;
+    font-size: 0.85rem;
+    padding: 0.7rem 2rem;
   }
 }

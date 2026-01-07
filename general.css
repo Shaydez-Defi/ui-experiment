@@ -1,15 +1,29 @@
 body{
-  background-image: url(circle-scatter-haikei.png);
+  background-image: url(layered-waves-haikei.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
-  padding: 50px;
+  min-height: 100vh;
+  padding: 2vw 3vw;
   font-family: Inter;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: -1;
+}
+
+@media (min-width:768px) {
+  body{
+    padding: 5vw;
+  }
 }
 
 @media(min-width: 1024px) {
   body{
-    padding: 90px;
+    padding: 9vw;
   }
 }
